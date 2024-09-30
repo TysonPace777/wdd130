@@ -1,5 +1,8 @@
+:root {
+    --title-border-color: steelblue;
+}
 nav {
-    background-color: steelblue;
+    background-color: var(--title-border-color);
     padding: 10px;
 }
 nav a {
@@ -13,7 +16,7 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--title-border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
