@@ -165,3 +165,44 @@ footer {
     text-align: center;
 }
 
+button {
+    display: block;
+    margin: 1rem auto;
+    background-color: var(--Border-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--nav-color);
+}
+
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.employee-item {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    grid-row: span 3;
+}
+
+legend {
+    margin: 0 auto;
+}
+
+.form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    border: solid var(--text-background)
+}
