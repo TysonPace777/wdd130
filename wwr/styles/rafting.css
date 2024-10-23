@@ -260,7 +260,7 @@ legend {
 
 .trip-row {
     grid-row: 2;
-    width: 1fr;
+    width: 175px;
     height: auto;
     justify-content: center;
     object-fit: cover;
