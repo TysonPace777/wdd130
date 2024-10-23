@@ -159,6 +159,7 @@ nav {
 footer {
     display: flex;
     align-items: center;
+    background-color: var(--nav-color);
 }
 
 .foot-text {
@@ -238,4 +239,49 @@ legend {
 .grid-image {
     width: 200px;
     height: auto;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 1px var(--Border-color);
+
+}
+.trip-title {
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.trip-row {
+    grid-row: 2;
+    width: 1fr;
+    height: auto;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.text {
+    background-color: var(--text-background);
+}
+
+.third-row {
+    width: 175px;
+}
+
+table, th, td{
+    border: 1px solid var(--Border-color);
+    background-color: var(--text-background);
+    width: auto;
+}
+
+.trips-title {
+    border: 1px solid var(--Border-color);
+    justify-content: center;
+    padding-left: 2px;
 }
